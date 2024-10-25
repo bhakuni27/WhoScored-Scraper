@@ -54,5 +54,5 @@ This will create a new file named `Matches_Data.csv`, containing summarized data
    ```
 This will create a new file named `players_data.json`, containing player performance data for all the matches in `match_urls.txt`.
 
-> **NOTE:** The scraper is subject to the availability and structure of data on WhoScored.com. Changes on the website may affect the functionality of this tool.
+> **NOTE:** This scraper is subject to the availability and structure of data on WhoScored.com. Changes on the website may affect the functionality of this tool.
 

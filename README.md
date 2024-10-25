@@ -25,7 +25,15 @@ git clone https://github.com/bhakuni27/WhoScored-Scraper.git
 cd <repository-folder>
 ```
 ### 2. Configure Season URLs
-In the file `season_urls.txt`, enter the URLs of the seasons for which you want to collect data.
+In the file `season_urls.txt`, enter the URLs of the seasons for which you want to collect data.  
+>**Important:** Only include the section of the URL after `https://www.whoscored.com`. For example, for the full URL:
+>```
+>https://www.whoscored.com/Regions/252/Tournaments/2/Seasons/10316/Stages/23400/Show/England-Premier-League-2024-2025
+>```
+>You should only enter:
+>```
+>/Regions/252/Tournaments/2/Seasons/10316/Stages/23400/Show/England-Premier-League-2024-2025
+>```
 
 ### 3. Generate Match URLs
 - Open `Match_URLs.py`.
